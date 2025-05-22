@@ -2,6 +2,6 @@ services:
   - type: web
     name: scraper-imobiliario
     env: node
-    buildCommand: npm install
+    buildCommand: ./render-build.sh
     startCommand: node scrape.js
     plan: free
