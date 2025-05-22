@@ -1,0 +1,13 @@
+{
+  "name": "imobiliario-scraper",
+  "version": "1.0.0",
+  "description": "Scraper para empreendimentos Sotheby's",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
+  }
+}
